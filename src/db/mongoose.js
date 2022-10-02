@@ -6,7 +6,7 @@ mongoose.connect(process.env.MONGODB_URL,{
     useCreateIndex: true,
     useFindAndModify: false
 }).then(()=>{
-    console.log("connected")
+    //console.log("connected")
 }).catch((error)=>{
     console.log("Error while connecting to Mongodb: ", error)
 })
