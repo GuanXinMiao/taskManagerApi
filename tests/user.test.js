@@ -22,12 +22,12 @@ test('Should signup a new user', async () => {
     expect(response.body).toMatchObject({
         user: {
             name: 'Bill',
-            email: 'smia076@aucklanduni.ac.nz'
+            email: 's16@ssssss.ac.nz'
         },
         token: user.tokens[0].token
     })
 
-    expect(user.password).not.toBe('022318Jj')
+    expect(user.password).not.toBe('111111111')
 
 })
 
